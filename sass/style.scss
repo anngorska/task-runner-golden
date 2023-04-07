@@ -68,7 +68,7 @@ body {
 
 .page-title {
     font-family: $font-two;
-    font-size:40px;
+    font-size: 40px;
 }
 
 .page-subtitle {
@@ -94,15 +94,15 @@ body {
     background-size: 300%;
 
 }
-    
+
 .btn:hover {
     background-position: 0 100%;
     color: $color-one;
 }
-    
+
 .btn-one {
     border: none;
-    color: $color-one; 
+    color: $color-one;
     background-color: $color-two;
 }
 
@@ -165,6 +165,7 @@ a:hover {
 
 .services {
     margin: 100px;
+    color: $color-three
 }
 
 .section-title {
@@ -178,8 +179,37 @@ a:hover {
 .section-subtitle {
     padding-top: 0%;
     font-family: $font-two;
-    color: $color-three; 
+    color: $color-three;
     font-size: 20px;
     opacity: 50%;
     margin: 0%;
+}
+
+i:hover {
+    transform: scale(0,5);
+    transition: all 1s;
+}
+
+.wrap-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.wrap-services i {
+    font-size: 30px;
+    background: $color-two;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-one;
+    border-radius: 50%;
+}
+
+.box {
+    color: $color-three;
+    font-family: $font-one;
 }
