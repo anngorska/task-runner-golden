@@ -3,6 +3,7 @@ $color-one: #ffffff;
 $color-two: #fed136;
 $color-three: #000000;
 $color-four: #636e72;
+$color-five: #f7f7f7;
 
 $font-one: 'Monteserrat', sans-serif;
 $font-two: 'Courgette', sans-serif;
@@ -197,7 +198,7 @@ i:hover {
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
-    padding-bottom: 50px;
+    padding: 50px 0 0 0;
 }
 
 .box i {
@@ -222,4 +223,27 @@ i:hover {
 
 .box a {
     font-size: 0;
+}
+
+/* Portfolio */
+
+.portfolio {
+    background-color: $color-five;
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.portfolio .photo-container {
+    position: relative;
+    width: 33.333%; 
+    margin: 30px;
+}
+
+.portfolio .photo-container img {
+    width: 100%;
+    display: block;
 }
