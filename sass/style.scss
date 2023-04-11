@@ -2,6 +2,7 @@
 $color-one: #ffffff;
 $color-two: #fed136;
 $color-three: #000000;
+$color-four: #636e72;
 
 $font-one: 'Monteserrat', sans-serif;
 $font-two: 'Courgette', sans-serif;
@@ -179,14 +180,13 @@ a:hover {
 .section-subtitle {
     padding-top: 0%;
     font-family: $font-two;
-    color: $color-three;
+    color: $color-four;
     font-size: 20px;
-    opacity: 50%;
     margin: 0%;
 }
 
 i:hover {
-    transform: scale(0,5);
+    transform: scale(1.5);  
     transition: all 1s;
 }
 
@@ -197,19 +197,29 @@ i:hover {
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
+    padding-bottom: 50px;
 }
 
-.wrap-services i {
+.box i {
     font-size: 30px;
-    background: $color-two;
+    border-style: solid;
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: $color-one;
+    color: $color-two;
     border-radius: 50%;
 }
 
 .box {
     color: $color-three;
     font-family: $font-one;
+    margin: 0 30px;
+}
+
+.box p {
+    color: $color-four;
+}
+
+.box a {
+    font-size: 0;
 }
