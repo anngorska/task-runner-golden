@@ -34,6 +34,15 @@ body {
     padding: 0 20px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* Splash */
 
 .wrap {
@@ -94,7 +103,6 @@ body {
     background-color: inherit;
     background-position: 100% 0;
     background-size: 300%;
-
 }
 
 .btn:hover {
@@ -117,7 +125,6 @@ body {
 .navigation ul {
     padding: 0;
     margin: 0;
-    list-style-type: none;
 }
 
 .navigation ul li {
@@ -168,6 +175,7 @@ a:hover {
 .services {
     margin: 100px;
     color: $color-three
+    
 }
 
 .section-title {
@@ -187,7 +195,7 @@ a:hover {
 }
 
 i:hover {
-    transform: scale(1.5);  
+    transform: scale(1.2);
     transition: all 1s;
 }
 
@@ -232,18 +240,97 @@ i:hover {
     padding: 100px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
-
 }
 
 .portfolio .photo-container {
     position: relative;
-    width: 33.333%; 
-    margin: 30px;
+    margin: 30px 20px;
 }
 
 .portfolio .photo-container img {
     width: 100%;
     display: block;
+    height: auto;
 }
+
+.description {
+    background-color: $color-one;
+    color: $color-three;
+    font-family: $font-one;
+    position: absolute;
+    width: 100%;
+}
+
+.description p {
+    padding: 0 0;
+    font-family: $font-two;
+    color: $color-four;
+}
+
+.wrap-portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 50px 0 50px 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: $color-one;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.page-footer {
+    font-family: $font-one;
+    color: $color-three;
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo i {
+    font-size: 20px;
+    background-color: $color-three;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: $color-one;
+    border-radius: 50%;
+}
+
+.logo {
+    color: $color-four;
+    font-family: $font-one;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo a {
+    font-size: 0;
+}
+
+.logo ul li {
+    display: inline-block;
+    justify-content: center;
+}
+
