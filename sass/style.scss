@@ -28,12 +28,6 @@ body {
     font-family: $font-one;
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -175,7 +169,6 @@ a:hover {
 .services {
     margin: 100px;
     color: $color-three
-    
 }
 
 .section-title {
@@ -284,14 +277,8 @@ i:hover {
 
 .footer {
     background-color: $color-one;
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-
+    padding: 20px 10px;
+    display: inline-flex;
 }
 
 .page-footer {
@@ -299,10 +286,9 @@ i:hover {
     color: $color-three;
     font-size: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-
-
+    padding: 0 10px;
 }
 
 .logo i {
@@ -318,11 +304,10 @@ i:hover {
 .logo {
     color: $color-four;
     font-family: $font-one;
-    margin: 0 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .logo a {
@@ -330,7 +315,6 @@ i:hover {
 }
 
 .logo ul li {
-    display: inline-block;
+    display: inline-flex;
     justify-content: center;
 }
-
